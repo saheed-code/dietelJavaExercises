@@ -18,6 +18,9 @@ public class Arithmetic {
         int sumOfSquares = squareOne + squareTwo;
         int differenceOfSquares = squareOne - squareTwo;
 
-
+        System.out.printf("The square of the first number is: %d%n" +
+                "The square of the second number is: %d%n" +
+                "The sum of their squares is: %d%n" +
+                "The difference of their squares is: %d%n", squareOne, squareTwo, sumOfSquares, differenceOfSquares);
     }
 }
